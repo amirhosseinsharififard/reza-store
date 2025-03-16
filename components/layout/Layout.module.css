@@ -1,0 +1,129 @@
+.container{
+    max-width: 1360px;
+    background: white;
+    margin: auto;
+}
+
+.container header {
+    padding: 15px 40px;
+}
+header .header_section_signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+header .header_section_signup .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+header .header_section_signup .buttons span {
+ height: 20px;   
+ border: 1px solid #F77FBE;
+ margin: auto 20px;
+}
+header .header_section_signup .buttons a {
+    display: flex; 
+    justify-content: center; /* افقی وسط */
+    align-items: center; /* عمودی وسط */
+    width: 80px;
+    height: 40px;
+    text-align: center; /* برای اطمینان بیشتر */
+    text-decoration: none; /* حذف خط زیر لینک */
+}
+header .header_section_signup .buttons a:nth-child(3){
+    color: #000;
+   border: 2px solid  #F77FBE;
+   border-radius: 5px;
+}
+header .header_section_signup .buttons a:nth-child(1){
+    color: #000;
+   background-color:  #1C39BB;
+   border-radius: 5px;
+   color: #fff;
+}
+header .header_section_signup .header_logo_section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: black;
+}
+
+header .header_section_signup .header_logo_section img{
+    width: 55px;
+    height: 55px;
+}
+
+header .header_section_buttons{
+    background-color: #F5F5F5;
+    color: black;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 10px ;
+
+    
+}
+
+header .header_section_buttons .header_buttons_search_section {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+header .header_section_buttons .header_buttons_search_section div{
+    height: 40px;
+    background-color: white;
+    color: #F77FBE;
+    border: 1px solid #F77FBE;
+    border-radius: 5px;
+    width: 445px;
+    display: flex;
+    align-items: center;
+}
+
+header .header_section_buttons .header_buttons_search_section input{
+    width: 100%;
+    text-align: right;
+    background-color: transparent;
+    color: #F77FBE;
+    padding: 1rem;
+    height: 40px;
+    border: none;
+}
+
+header .header_section_buttons .header_buttons_search_section .basket {
+    color: #F77FBE;
+    border: 1px solid #F77FBE;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+header .header_section_buttons .header_buttons_buttons_section {
+    background-color: #fff;
+    padding: 10px 0 ;
+    font-weight: 400;
+    
+}
+
+header .header_section_buttons .header_buttons_buttons_section a{
+    padding: 10px  20px;
+    margin: 0 .2rem;
+    border-radius: 5px;
+    
+}
+
+header .header_section_buttons .header_buttons_buttons_section a:first-child{
+    background-color: blue;
+    margin-right: 0;
+    color: white;
+
+}
