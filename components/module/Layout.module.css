@@ -7,9 +7,6 @@
 
 .container header {
     padding: 15px 40px;
-   
-
-
 }
 header .header_section_signup{
     display: flex;
@@ -35,7 +32,6 @@ header .header_section_signup .buttons a {
     width: 80px;
     height: 40px;
     text-align: center; /* برای اطمینان بیشتر */
-    text-decoration: none; /* حذف خط زیر لینک */
 }
 header .header_section_signup .buttons a:nth-child(3){
     color: #000;
@@ -91,7 +87,10 @@ header .header_section_buttons .header_buttons_search_section div{
     display: flex;
     align-items: center;
 }
+.header_buttons_search_section div a {
+    color: #F77FBE;
 
+}
 header .header_section_buttons .header_buttons_search_section input{
     width: 100%;
     text-align: right;
@@ -143,45 +142,50 @@ header .header_section_buttons .header_buttons_buttons_section a:first-child{
 /* end headers */
 
 /* footer start */
-footer .pargraph{
+.footer {
+    color: #fff;
+}
+.footer .pargraph{
     background-color: #1C39BB;
     text-align: center;
     height: 80px;
     align-content: center;
 }
-footer .pargraph24{
+.footer .pargraph24{
     font-size: 24px;
 }
 
-footer .pargraph16{
+.footer .pargraph16{
     font-size: 16px;
     height: 40px;
 }
 
-footer .footer_sections{
+.footer .footer_sections{
     background-color: #00A693;
     height: 240px;
     text-align: center;
     padding-top: .5rem;
 }
-footer .footer_section_certificate a{
+.footer .footer_section_certificate a{
     margin: 0 1rem;
     border-radius: 5px;
 }
-footer .footer_section_certificate a:last-child img{
+.footer .footer_section_certificate a:last-child img{
     background-color: #fff;
     text-align: center;
     align-content: center;
 }
 
-footer .footer_sections .footer_section_links{
+.footer .footer_sections .footer_section_links{
     margin: .5rem 0;
 }
-footer .footer_sections .footer_section_links a{
+.footer .footer_sections .footer_section_links a{
     margin: .5rem;
+    color: #fff;
+
 }
 
-footer .footer_section_logoes{
+.footer .footer_section_logoes{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -190,7 +194,7 @@ footer .footer_section_logoes{
     margin: 4rem 0;
 }
 
-footer .footer_section_socials a{
+.footer .footer_section_socials a{
     display: inline-block;
     margin: .5rem;
     width: 32px;

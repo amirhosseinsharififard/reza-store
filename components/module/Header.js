@@ -20,9 +20,6 @@ const Header = () => {
           <span></span>
           <Link href={"/"}>ثبت نام</Link>
         </div>
-        {/* <div className={styles.header_banner}>
-            <Image src={""} alt='Logo' style={{background: "silver"}} />
-          </div> */}
         <div className={styles.header_logo_section}>
           <h2>Air Sound</h2>
           <Image src={Logo} alt='Logo'  />

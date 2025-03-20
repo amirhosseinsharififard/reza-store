@@ -1,19 +1,4 @@
-import Image from "next/image";
 import styles from "./Layout.module.css";
-import Link from "next/link";
-
-import Logo from "/public/logo.png";
-
-// icons header
-import {BsBasket3} from "react-icons/bs";
-import {FaMagnifyingGlass} from "react-icons/fa6";
-
-// icons footer
-
-import {IoLogoYoutube} from "react-icons/io";
-import {FaTelegramPlane} from "react-icons/fa";
-import {FaTwitter} from "react-icons/fa";
-import {FaWhatsapp} from "react-icons/fa";
 
 import Header from "../module/Header";
 import Footer from "../module/Footer";
