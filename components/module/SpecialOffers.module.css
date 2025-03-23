@@ -1,0 +1,11 @@
+.container{
+    margin: auto;
+    max-width: 870px;
+
+}
+.header{
+    direction: rtl;
+}
+.m1{
+margin: 0 1rem;
+}

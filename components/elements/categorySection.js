@@ -4,8 +4,6 @@ import Link from "next/link";
 import styles from "./Categories.module.css";
 
 import React from "react";
-import accourdeon from "../../public/accourdeon.png";
-import airpod from "../../public/dunk-low-retro-mens-shoes-21mPvm 1 (1) 1.png";
 const CategorySection = ({
     banner,title,img
 }) => {
