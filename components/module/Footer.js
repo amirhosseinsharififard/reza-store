@@ -13,7 +13,11 @@ import zarinpal from "../../public/zarinpal.svg";
 import Enamad from "../../public/Enamad.svg";
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <footer className={styles.footer}>
+=======
+    <footer>
+>>>>>>> 5cec35f (header and footer are complited)
       <p className={`${styles.pargraph} ${styles.pargraph24}`}>
         با عضویت در باشگاه مشتریان از 10% تخفیف بیشتر لذت ببرید!
       </p>
