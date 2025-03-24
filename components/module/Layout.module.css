@@ -7,12 +7,6 @@
 
 .container header {
     padding: 15px 40px;
-<<<<<<< HEAD
-=======
-   
-
-
->>>>>>> 5cec35f (header and footer are complited)
 }
 header .header_section_signup{
     display: flex;
@@ -38,10 +32,6 @@ header .header_section_signup .buttons a {
     width: 80px;
     height: 40px;
     text-align: center; /* برای اطمینان بیشتر */
-<<<<<<< HEAD
-=======
-    text-decoration: none; /* حذف خط زیر لینک */
->>>>>>> 5cec35f (header and footer are complited)
 }
 header .header_section_signup .buttons a:nth-child(3){
     color: #000;
@@ -97,14 +87,10 @@ header .header_section_buttons .header_buttons_search_section div{
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
 .header_buttons_search_section div a {
     color: #F77FBE;
 
 }
-=======
-
->>>>>>> 5cec35f (header and footer are complited)
 header .header_section_buttons .header_buttons_search_section input{
     width: 100%;
     text-align: right;
@@ -156,66 +142,41 @@ header .header_section_buttons .header_buttons_buttons_section a:first-child{
 /* end headers */
 
 /* footer start */
-<<<<<<< HEAD
 .footer {
     color: #fff;
 }
 .footer .pargraph{
-=======
-footer .pargraph{
->>>>>>> 5cec35f (header and footer are complited)
     background-color: #1C39BB;
     text-align: center;
     height: 80px;
     align-content: center;
     color: #fff;
 }
-<<<<<<< HEAD
 .footer .pargraph24{
     font-size: 24px;
 }
 
 .footer .pargraph16{
-=======
-footer .pargraph24{
-    font-size: 24px;
-}
-
-footer .pargraph16{
->>>>>>> 5cec35f (header and footer are complited)
     font-size: 16px;
     height: 40px;
 }
 
-<<<<<<< HEAD
 .footer .footer_sections{
-=======
-footer .footer_sections{
->>>>>>> 5cec35f (header and footer are complited)
     background-color: #00A693;
     height: 240px;
     text-align: center;
     padding-top: .5rem;
 }
-<<<<<<< HEAD
 .footer .footer_section_certificate a{
     margin: 0 1rem;
     border-radius: 5px;
 }
 .footer .footer_section_certificate a:last-child img{
-=======
-footer .footer_section_certificate a{
-    margin: 0 1rem;
-    border-radius: 5px;
-}
-footer .footer_section_certificate a:last-child img{
->>>>>>> 5cec35f (header and footer are complited)
     background-color: #fff;
     text-align: center;
     align-content: center;
 }
 
-<<<<<<< HEAD
 .footer .footer_sections .footer_section_links{
     margin: .5rem 0;
 }
@@ -226,16 +187,6 @@ footer .footer_section_certificate a:last-child img{
 }
 
 .footer .footer_section_logoes{
-=======
-footer .footer_sections .footer_section_links{
-    margin: .5rem 0;
-}
-footer .footer_sections .footer_section_links a{
-    margin: .5rem;
-}
-
-footer .footer_section_logoes{
->>>>>>> 5cec35f (header and footer are complited)
     display: flex;
     justify-content: center;
     align-content: center;
@@ -244,11 +195,7 @@ footer .footer_section_logoes{
     margin: 4rem 0;
 }
 
-<<<<<<< HEAD
 .footer .footer_section_socials a{
-=======
-footer .footer_section_socials a{
->>>>>>> 5cec35f (header and footer are complited)
     display: inline-block;
     margin: .5rem;
     width: 32px;

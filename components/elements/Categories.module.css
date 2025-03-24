@@ -17,15 +17,17 @@
     justify-content: space-around;
     width: 333px;
     height: 270px;
+    color: #fff;
 }
-
+.left_links h3{
+    color: #fff;
+}
 .left_links a{
     margin: .5rem 0;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    color: black;
     height: 60px;
     text-decoration: none;
     overflow: hidden;   
